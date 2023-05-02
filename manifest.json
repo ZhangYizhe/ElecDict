@@ -1,0 +1,27 @@
+{
+  "name": "ElecDict",
+  "description": "An extension helps you to more easily get description of words from Cambridge Dictionary Online.",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup/popup.html",
+    "default_icon": {
+      "16": "/logo/ElecDictLogo16.png",
+      "32": "/logo/ElecDictLogo32.png",
+      "48": "/logo/ElecDictLogo48.png",
+      "128": "/logo/ElecDictLogo128.png"
+    }
+  },
+  "host_permissions": [
+    "https://*.cambridge.org/"
+  ],
+  "icons": {
+    "16": "/logo/ElecDictLogo16.png",
+    "32": "/logo/ElecDictLogo32.png",
+    "48": "/logo/ElecDictLogo48.png",
+    "128": "/logo/ElecDictLogo128.png"
+  }
+}
